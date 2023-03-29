@@ -5,11 +5,9 @@ function jumpingOnClouds(c) {
       if( c[i] === 0 && c[i+2] === 0){
           jump += 1;
           i = i+1;
-      }else if (c[i] === 0 && c[i+2] === 1){
-          jump += 1;
-      }else if ( c[i] === 0 && c[i+1] === 0){
-          jump += 1;
-      }
+      } else if (c[i] === 0 && c[i+2] === 1 || c[i] === 0 && c[i+1] === 0){
+        jump += 1;
+    }
   }
   return jump;
 }

@@ -1,4 +1,4 @@
-https://www.codewars.com/kata/586d6cefbcc21eed7a001155/javascript
+// https://www.codewars.com/kata/586d6cefbcc21eed7a001155/javascript
 
 function longestRepetition(s) {
   let count = 0;
